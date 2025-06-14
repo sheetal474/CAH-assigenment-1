@@ -103,7 +103,103 @@ hr{
     background-color: red;
     }
 .images{
-     display:flex;
-    margin-top: 100px;
-    margin-left: 10px;
+      display:grid; 
+     /* grid-template-columns: auto auto auto;  */
+     grid-template-columns: auto auto auto;
+    padding:150px;
+    margin-bottom: 140px;
+}
+.box img{
+     width:80px;
+    height:80px;
+} 
+.box{
+    padding:40px;
+    text-align: center;
+    align-items: center;
+    /* padding-left:150px;
+    padding-right: 150px; */
+}
+    
+.caption{
+    font-size: 20px;
+  font-family:"Bebas neue" ;
+  color:rgb(2, 2, 81);
+  font-weight: 400;
+  margin-bottom:15px;
+/* padding-top: 10px; */
+/* padding-right:750px;  */
+/* margin-left: 30px; */
+  /* text-align: center;
+  justify-content: center; */
+}
+.text{
+    font-size: 16px;
+    color:dimgray;
+    font-family: "roboto";
+    font-weight: 400;
+    /* padding-top: 200px; */
+    /* margin-right: 100px; */
+}
+ .box:not(:first-child){
+     border-left:1px solid  rgb(219,214,214);  
+}
+.heading{
+    height: 450px;
+    background-color: #140748;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* column-gap: 1px; */
+    
+}
+.content{
+    color:white;
+    font-size:40px;
+    padding-top:200px;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    /* padding-left: 190px; */
+    margin-left: 190px;
+}
+.content1{
+    color:white;
+    font-size:20px;
+    /* padding-left: 190px; */
+    line-height: 1.6em;
+     font-family:roboto;
+     font-weight: 300;
+     margin-left: 190px;
+
+}
+.message{
+     height:130px;
+     width:130px;
+/* padding-left:1px; */
+     /* text-align: center; */
+
+    /* width: 2px; */
+    /* /* padding-left: 100px;  */
+      padding-top: 190px;  
+      margin-right: 200px;  
+}
+.heading1{
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.picture{
+        height:900px;
+        width:760px;
+    }
+.content2{
+    h1{color: #140748;
+ font-family: "Bebas Neue"; 
+    font-size: 40px;
+ font-weight: 400; 
+    }
+/* padding-left: 20px; */
+margin-top:30px;
+padding:70px;
+
+
 }
