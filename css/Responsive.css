@@ -38,4 +38,63 @@
     .blue-section-content img{
         padding-right: 40px;
     }
+    .heading1{
+    
+     grid-template-columns: 100%;
+          padding-bottom: 0px;
+    }
+    .picture img{
+        width:100%;
+        padding:40px;
+       
+  } 
+  .content2{
+    padding-left: 40px;
+    padding-top: 0;
+
+  }
+  .content3 p{
+    width:100%;
+    
+  }
+   #education{
+         grid-template-columns: 100%; 
+  }
+  .box-image img{
+    width:100%;
+    padding:40px;
+    padding-top:40px;
+  }
+  .education-data{
+        order: 2;
+        padding-left:40px;
+        padding-top:0px;
+  }
+.education-data1{
+        padding-left:40px;
+        padding-top:0px;
+  }
+  .education-heading{
+        font-size: 40px;
+    }
+    
+    .course-name{
+        font-size: 22px;
+    }
+    .edu-year{
+        font-size: 20px;
+    }
+  .contact-section{
+    grid-template-columns: 100%;
+ }
+ .my-details{
+    order:2;
+    padding-left: 0px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding:40px;
+ }
+.footer{
+    padding:40px;
 }
+    }

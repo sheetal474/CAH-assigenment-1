@@ -154,36 +154,6 @@ hr{
     border-left:1px solid  rgb(219,214,214); 
     border-right:1px solid  rgb(219,214,214); 
 }
-/* .heading{
-    height: 450px;
-    background-color: #140748;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.content{
-    color:white;
-    font-size:40px;
-    padding-top:200px;
-    font-weight: 400;
-    font-family: "Bebas Neue";
-    margin-left: 190px;
-}
-.content1{
-    color:white;
-    font-size:20px;
-    line-height: 1.6em;
-     font-family:roboto;
-     font-weight: 300;
-     margin-left: 190px;
-
-}
-.message{
-     height:130px;
-     width:130px;
-      padding-top: 190px;  
-      margin-right: 200px;  
-      color:white;
-} */
 
 #blue-section{
    position: relative;
@@ -229,9 +199,6 @@ hr{
 .slider img{
     width: 300px;
 }
-
-
-
 .heading1{
  display: grid;
    grid-template-columns:50% 50%; 
@@ -239,11 +206,11 @@ hr{
   padding-bottom: 100px;
   
 }
-.picture{
+.picture img{
         height:900px;
         width:760px;
     }
-.content2{
+.content2 h1{
     margin-top:30px;
     padding:70px;
       h1{
@@ -253,13 +220,14 @@ hr{
 font-weight: 400; 
     }
 }
-.content3{
+.content3 p{
     color: #666666;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
     margin-top: 30px;
+    width:80%;
 }
 .bookmark i{
     color: #7961E8;
@@ -389,70 +357,6 @@ button:hover{
     margin-top:150px;
 }
 
-/* #edu-box{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
- .education{
-    margin-top: 100px;
-     display:flex; 
-     justify-content: content; 
-     flex-direction: column;
-    padding-left: 50PX;
-     }
-
-.details{
-     padding-left:10px;
-      /* line-height: 1.1em; 
-        margin-left: 180px;}
-
-.courses    h2,h3,p{
-        padding-top:30px;
-        padding-left: 40px;
-        /* padding-right: 400px; 
-    }
- h3{
-        font-weight:300;
-         color: #666666; 
-         font-family: "Roboto", Sans-serif; 
-        font-size: 20px;
-    }
- {
-    color: #140748;
-    font-family: "Bebas Neue";
-    font-weight: 400;
-    font-size:40px;
-    }
- h2{
-     font-family: "Bebas Neue";
-    font-weight: 100;
-    font-size:24px;
-    color: #140748;
-    line-height:o.9em;
-    }
-    p{ 
-        font-family:"roboto" ;
-        line-height: 1.4em;
-        color: #666666; 
-    }
-.courses{
-         border-left:2px dotted rgb(221, 224, 221);
-          /* border-top: 2px dotted rgb(221,224,221); 
-          border-height:2px; 
-
-         padding-left:40px;
-        padding-top:20px;
-        
-        border-radius: 2px;
-         margin-left: -140px;
-     
-}
-.pic{
-    height: 900px;
-    width:800px;
-/* max-width: fit-content; 
-} */
-
 .page6{
     display: grid;
      grid-template-columns:50% 50%; 
@@ -486,14 +390,13 @@ margin-top: 120px;;
         margin-top:20px ;
         background-color:#FAFBFD;
     }
-    /* #id1{
-        top-margin:100px;
-    } */
     h1{
     color: #140748;
     font-family: "Bebas Neue";
     font-weight: 400;
     font-size:40px;
+    line-height: 1.8em;
+    /* padding-top:80px; */
     
     }
  h2{
@@ -509,16 +412,17 @@ margin-top: 120px;;
          font-family: "Roboto", Sans-serif; 
         font-size: 20px;
     }
+    .photo{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        
+    }
 .photo img{
-         display: geid;  
-         /* display: flex; */
-         /* grid-template-columns:25% 25% 25% 25%; */
-        /* justify-content: space-between;
-         justify-content: space-between; */
+         /* display: geid;   */
          margin-top: 80px;
          padding-left: 15px;
-         
-         
+              
     }
 .photo1{
      height:250px;
@@ -534,9 +438,6 @@ margin-top: 120px;;
 .card1{
         display: flex;
         justify-content: space-between;
-         /* box-shadow: 0 0 10px #c0c1c385;
-         width-left: 100px   ;
-         background-color: white; */
           margin-top: 50px;
           margin-bottom: 10px;
              padding-left:200px;
@@ -554,6 +455,8 @@ margin-top: 120px;;
          background-color: white; 
          text-align: center;
          padding: 20px;
+           font-family: "Bebas Neue";
+            font-weight: 100;
         
         
    }
@@ -745,9 +648,9 @@ form{
 .footer1{
     padding-top: 1px;
     font-size: 30px; 
-    font-family: "Bebas Neue", sans-serif;
+     /* font-family: "Bebas Neue", sans-serif;  */
     text-align: center; 
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     line-height: 2.1em;
 }
@@ -756,9 +659,10 @@ form{
    font-weight: 400;
     text-transform: uppercase;
     line-height: 1.8em;
-      font-size: 60px; 
+      font-size: 60px;
+        font-family: "Bebas Neue", sans-serif; 
     }
-    .footer-icons {
+.footer-icons {
     margin-top: 20px;
     display: flex;
   
