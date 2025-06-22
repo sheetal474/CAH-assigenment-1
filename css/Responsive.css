@@ -45,20 +45,28 @@
     }
     .picture img{
         width:100%;
-        padding:40px;
+        padding-left:40px;
+        padding-right:40px;
        
   } 
-  .content2{
+  .content2 h1{
     padding-left: 40px;
-    padding-top: 0;
+    padding-top: 0px;
 
   }
   .content3 p{
     width:100%;
-    
-  }
+     padding-left: 40px;
+ }
+ .mark{
+    padding-left:40px;
+ }
+ .but1{padding-left:40px;
+ }
+
    #education{
          grid-template-columns: 100%; 
+         margin-bottom: 0px;
   }
   .box-image img{
     width:100%;
@@ -70,9 +78,13 @@
         padding-left:40px;
         padding-top:0px;
   }
+  .education-heading{
+   margin-bottom: 30px;
+  }
 .education-data1{
         padding-left:40px;
         padding-top:0px;
+        margin:0px;
   }
   .education-heading{
         font-size: 40px;
@@ -87,14 +99,120 @@
   .contact-section{
     grid-template-columns: 100%;
  }
- .my-details{
+ .images-div{
+     grid-template-columns: auto auto;
+        gap: 20px;
+     padding-left:40px;
+     padding-right:40px;
+     /* padding-top: 0px; */
+
+ }
+ .photo img{
+    width:100%
+ }
+ .card1{
+     grid-template-columns: auto auto;
+        /* padding-left: 40px;
+        padding-top:0px; */
+ }
+ .card2{
+    padding-left: 10px;
+
+ }
+ .meeting{
+    padding-top: 40px;
+ height:600px;
+  width:100px; 
+ }
+ .logs{
+          display: flex;
+           /* flex-direction: column-reverse; */
+    }
+    .logo1{
+        grid-template-columns: auto auto;
+        /* margin-top:1200px; */
+         /* padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding: 40px; */
+        order:1;
+    
+    }
+    .logo img{
+        padding: 40px;
+    }
+.reviews{
+     margin-top: 40px;
+     grid-template-columns: auto;
+      /* column-count:100% */
+      order: 2;
+}
+}
+
+ .reviews{
+        /* margin-top: 40px; */
+    position: relative;
+        flex-direction: column;
+         row-gap: 40px; 
+        /* margin-top:-1500px; */
+        /* padding: 0 40px; */
+    }
+    .reviews1{
+        width:100%;
+    }
+    
+    
+ .contact-section{
+        grid-template-columns: auto;
+    }
+    .my-details{
+        order: 2;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 40px;
+        width: 100%;
+    }
+    .query{
+        font-size: 40px;
+    }
+    .location-text{
+        font-size: 22px;
+
+    }
+    .call-us{
+        font-size: 22px;
+    }
+    .contact-form-box{
+        order: 1;
+        padding-left: 40px;
+        /* background-color: none; */
+    }
+    .contact-form{
+        position: relative;
+        left: 0;
+        /* padding-left: 40px; */
+    }
+    .form{
+        padding:80px;
+        box-shadow: none;
+    }
+    /* footer section */
+    .footer{
+        padding: 40px;
+        padding-top: 0;
+    }
+
+
+  /* .my-details{
     order:2;
     padding-left: 0px;
     padding-top:0px;
     padding-bottom: 0px;
+    padding:40px; */
+ 
+/* .footer{
     padding:40px;
- }
-.footer{
-    padding:40px;
-}
-    }
+} */
+
